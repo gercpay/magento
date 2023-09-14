@@ -1,0 +1,11 @@
+<form action="<?php echo $block->getGateUrl(); ?>" method="POST" id="gercpay_payment_form" style="display: none">
+    <?php $data = $this->getPostData(); ?>
+    <?php if (!empty($data)): ?>
+        <?php echo $data ?>
+    <?php endif; ?>
+</form>
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('gercpay_payment_form').submit();
+  });
+</script>

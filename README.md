@@ -1,2 +1,5 @@
-# magento
-GercPay plugin for Magento
+# Модуль GercPay для Magento
+
+Платіжний модуль існує у двох версіях:
+- сучасна (для **Magento 2.3+**);
+- застаріла (для **Magento 1.9+**).
