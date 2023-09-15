@@ -38,7 +38,7 @@ class GercPay_Payment_Helper_Data extends Mage_Core_Helper_Abstract
      *
      * @var string
      */
-    protected $apiUrl = 'https://api.gercpay.com.ua/';
+    protected $apiUrl = 'https://api.gercpay.com.ua/api/';
 
     /**
      * @param $option

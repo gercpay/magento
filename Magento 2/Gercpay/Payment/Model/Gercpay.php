@@ -76,7 +76,7 @@ class Gercpay extends \Magento\Payment\Model\Method\AbstractMethod
     /**
      * @var string
      */
-    protected $_gateUrl = "https://api.gercpay.com.ua";
+    protected $_gateUrl = "https://api.gercpay.com.ua/api";
 
     /**
      * @var \Magento\Framework\Encryption\EncryptorInterface

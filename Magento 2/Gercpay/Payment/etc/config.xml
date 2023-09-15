@@ -14,7 +14,7 @@
                 <after_pay_status>complete</after_pay_status>
                 <after_refund_status>canceled</after_refund_status>
                 <sort_order>100</sort_order>
-                <payment_action>https://api.gercpay.com.ua</payment_action>
+                <payment_action>https://api.gercpay.com.ua/api</payment_action>
                 <allowspecific>0</allowspecific>
             </gercpay>
         </payment>
